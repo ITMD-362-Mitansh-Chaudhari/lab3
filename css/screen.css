@@ -352,32 +352,48 @@
     
     form {
         margin: 0 auto;
-        width: 400px;
         padding: 20px;
-        border-radius: 10%;
         background-color: lightgray;
     }
     
     h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
+        font-size: 30px;
+        padding: 20px;
         text-align: center;
         font-weight: bold;
         background-color: lightcyan;
     }
     
     p {
+        font-size: 24px;
+        padding: 20px;
         text-align: center;
+        background-color: lightskyblue;
+    }
+    
+    #input-email {
+        padding: 20px;
+        background-color: lightseagreen;
     }
     
     #input-age-verification {
+        padding: 20px;
+        /* display: flex; */
         display: flex;
+        background-color: lightgoldenrodyellow;
+    }
+    
+    #input-submit {
+        padding: 20px;
+        text-align: center;
+        background-color: lightcoral
     }
     
     label {
         font-weight: bold;
         margin-right: 10px;
         margin-bottom: 10px;
+        margin: 0px 20px 0px 3px;
     }
     
     input[type="checkbox"],
